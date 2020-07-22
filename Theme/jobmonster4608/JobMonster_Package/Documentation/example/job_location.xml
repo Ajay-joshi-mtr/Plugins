@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+    <channel>
+        <wp:term>     
+            <wp:term_id>10</wp:term_id>  
+            <wp:term_taxonomy>job_location</wp:term_taxonomy>
+            <wp:term_slug>location-1</wp:term_slug>
+            <wp:term_parent></wp:term_parent>
+            <wp:term_name><![CDATA[Location 1]]></wp:term_name>
+        </wp:term>
+        <wp:term>
+            <wp:term_id>11</wp:term_id>
+            <wp:term_taxonomy>job_location</wp:term_taxonomy>
+            <wp:term_slug>sub-location-1</wp:term_slug>
+            <wp:term_parent>location-1</wp:term_parent>
+            <wp:term_name><![CDATA[Sub location 1]]></wp:term_name>
+        </wp:term>
+        <wp:term>
+            <wp:term_id>12</wp:term_id>
+            <wp:term_taxonomy>job_location</wp:term_taxonomy>
+            <wp:term_slug>sub-location-1-1</wp:term_slug>
+            <wp:term_parent>sub-location-1</wp:term_parent>
+            <wp:term_name><![CDATA[Sub location 1-1]]></wp:term_name>
+        </wp:term>
+         <wp:term>     
+            <wp:term_id>22</wp:term_id>  
+            <wp:term_taxonomy>job_location</wp:term_taxonomy>
+            <wp:term_slug>location-2</wp:term_slug>
+            <wp:term_parent></wp:term_parent>
+            <wp:term_name><![CDATA[Location 2]]></wp:term_name>
+        </wp:term>
+         <wp:term>
+            <wp:term_id>23</wp:term_id>
+            <wp:term_taxonomy>job_location</wp:term_taxonomy>
+            <wp:term_slug>sub-location-2</wp:term_slug>
+            <wp:term_parent>location-2</wp:term_parent>l
+            <wp:term_name><![CDATA[Sub location 2]]></wp:term_name>
+        </wp:term>
+        <generator>https://wordpress.org/?v=5.0.2</generator>
+    </channel>
+</rss>

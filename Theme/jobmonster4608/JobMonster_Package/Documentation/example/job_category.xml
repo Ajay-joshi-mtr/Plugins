@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+    <channel>
+        <wp:term>               
+            <wp:term_id>5</wp:term_id>  
+            <wp:term_taxonomy>job_category</wp:term_taxonomy>
+            <wp:term_slug>category-1</wp:term_slug>
+            <wp:term_parent></wp:term_parent>
+            <wp:term_name><![CDATA[Category 1]]></wp:term_name>
+        </wp:term>
+        <wp:term>
+            <wp:term_id>9</wp:term_id>
+            <wp:term_taxonomy>job_category</wp:term_taxonomy>
+            <wp:term_slug>sub-category-1</wp:term_slug>
+            <wp:term_parent>category-1</wp:term_parent>
+            <wp:term_name><![CDATA[Sub category 1]]></wp:term_name>
+        </wp:term>
+        <wp:term>    
+            <wp:term_id>10</wp:term_id>            
+            <wp:term_taxonomy>job_category</wp:term_taxonomy>
+            <wp:term_slug>sub-category-1-1</wp:term_slug>
+            <wp:term_parent>sub-category-1</wp:term_parent>
+            <wp:term_name><![CDATA[Sub category 1-1]]></wp:term_name>
+        </wp:term>
+         <wp:term>               
+            <wp:term_id>23</wp:term_id>  
+            <wp:term_taxonomy>job_category</wp:term_taxonomy>
+            <wp:term_slug>category-2</wp:term_slug>
+            <wp:term_parent></wp:term_parent>
+            <wp:term_name><![CDATA[Category 2]]></wp:term_name>
+         </wp:term>
+        <wp:term>
+            <wp:term_id>24</wp:term_id>
+            <wp:term_taxonomy>job_category</wp:term_taxonomy>
+            <wp:term_slug>sub-category-2</wp:term_slug>
+            <wp:term_parent>category-2</wp:term_parent>
+            <wp:term_name><![CDATA[Sub category 2]]></wp:term_name>
+        </wp:term>
+        <generator>https://wordpress.org/?v=5.0.2</generator>
+    </channel>
+</rss>

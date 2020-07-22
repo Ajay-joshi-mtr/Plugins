@@ -1,0 +1,6 @@
+Term Name,Term Slug,Parent Name,Parent Slug
+Location11,location11,,
+Sub Location,sub-location,Location11,location11
+Location2,location2,,
+Sub Location 2,sub-location-2,Location2,location2
+Location3,location3,,

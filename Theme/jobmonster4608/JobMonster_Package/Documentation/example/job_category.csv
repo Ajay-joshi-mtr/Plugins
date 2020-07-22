@@ -1,0 +1,6 @@
+Term Name,Term Slug,Parent Name,Parent Slug
+Category 1,category-1,,
+Category 2,category-2,,
+Category3,category3,Category 2,category-2
+Category4,category4,Category 2,category-2
+Category5,category5,Category 2,category-2
